@@ -13,14 +13,14 @@ const travelData = {
             name: "Paris, France",
             image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600",
             description: "The City of Light, famous for its art, fashion, gastronomy, and iconic landmarks.",
-            category: "city"
+            category: "country"
         },
         {
             id: 3,
             name: "Tokyo, Japan",
             image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600",
             description: "A fascinating blend of ultra-modern technology and ancient traditions.",
-            category: "city"
+            category: "country"
         },
         {
             id: 4,
@@ -34,7 +34,7 @@ const travelData = {
             name: "New York, USA",
             image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=600",
             description: "The city that never sleeps, with world-class entertainment, dining, and culture.",
-            category: "city"
+            category: "country"
         },
         {
             id: 6,
@@ -89,7 +89,7 @@ function displayResults(results) {
     if (results.length === 0) {
         resultsContainer.innerHTML = `
             <div class="result-card">
-                <p>No results found. Try searching for beaches, temples, or cities.</p>
+                <p>No results found. Try searching for beaches, temples, or countries.</p>
             </div>
         `;
         resultsContainer.classList.add('active');
