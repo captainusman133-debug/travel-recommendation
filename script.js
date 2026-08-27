@@ -45,13 +45,13 @@ const travelData = {
         }
     ],
     temples: [
-        {
-            id: 7,
-            name: "Angkor Wat, Cambodia",
-            image: "https://images.unsplash.com/photo-1563357989-1c9a2c1ebf3d?w=600",
-            description: "The largest religious monument in the world, a masterpiece of Khmer architecture.",
-            category: "temple"
-        },
+        // {
+        //     id: 7,
+        //     name: "Angkor Wat, Cambodia",
+        //     image: "https://images.unsplash.com/photo-1563357989-1c9a2c1ebf3d?w=600",
+        //     description: "The largest religious monument in the world, a masterpiece of Khmer architecture.",
+        //     category: "temple"
+        // },
         {
             id: 8,
             name: "Taj Mahal, India",
